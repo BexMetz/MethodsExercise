@@ -16,6 +16,8 @@
             Console.WriteLine($"Woah! A {color} {animal} sounds wild! One last question {userName}; What band is your favorite band?");
             var band = Console.ReadLine();
 
+            Console.WriteLine($"Thanks for all the info {userName}! It was nice to get to know you!");
+            Console.WriteLine($"I hope your {color} {animal} joins you for the {band} show!");
         }
     }
 }
